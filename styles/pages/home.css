@@ -1,0 +1,35 @@
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.5rem;
+  margin-right: 18.44rem;
+  margin-left: 18.44rem;
+  margin-bottom: 10rem;
+}
+
+.logo_hero {
+  width: 19rem;
+  height: 19rem;
+}
+
+.hero p {
+  font-family: var(--body-highlight-font);
+  font-style: normal;
+  font-weight: var(--body-highlight-font-weight);
+  font-size: var(--body-hightlight-font-size);
+  line-height: var(--body-highlight-line-height);
+  color: var(--black);
+}
+
+/* Red Yummy */
+.hero span {
+  color: var(--red-highlight);
+}
+
+
+.section-adress {
+  display: flex;
+  justify-content: center;
+  gap: 6.5rem;
+}
